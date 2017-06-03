@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    buildToolsVersion "25.0.3"
 
     defaultConfig {
         applicationId "com.dirtyunicorns.about"
@@ -10,12 +10,6 @@ android {
         targetSdkVersion 25
         versionCode 2
         versionName "2.0"
-    }
-    repositories {
-        mavenCentral()
-        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
-        maven { url "https://jitpack.io" }
-        maven { url 'https://maven.fabric.io/public' }
     }
     packagingOptions {
         exclude 'META-INF/ASL2.0'
@@ -27,6 +21,7 @@ android {
     }
     buildTypes {
         release {
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }

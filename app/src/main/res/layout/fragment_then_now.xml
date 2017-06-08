@@ -1,55 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:card_view="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/then_now_card"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    card_view:cardCornerRadius="2dp"
-    card_view:cardElevation="2dp"
-    card_view:cardBackgroundColor="@color/general_info_background"
-    android:layout_marginTop="10dp"
-    android:layout_marginLeft="10dp"
-    android:layout_marginRight="10dp"
-    android:background="@color/background">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <RelativeLayout
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginTop="27dp"
+        android:textColor="?android:textColorPrimary"
+        android:text="@string/then_now_title"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginTop="10dp"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="12sp"
+        android:text="@string/then_now_content" />
+
+    <View
+        android:id="@+id/divider"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="1px"
+        android:layout_marginTop="15dp"
+        android:background="@color/home_divider_tint"/>
 
-        <TextView
-            android:id="@+id/then_now_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginStart="14dp"
-            android:layout_marginTop="6dp"
-            android:text="@string/then_now_title"
-            android:textSize="20sp"
-            android:textColor="@color/general_info_text" />
-
-        <View
-            android:id="@+id/then_now_divider"
-            android:layout_width="match_parent"
-            android:layout_height="1px"
-            android:layout_marginTop="4dp"
-            android:background="@color/general_info_divider"
-            android:layout_below="@+id/then_now_title"
-            android:layout_marginLeft="6dp"
-            android:layout_marginRight="6dp" />
-
-        <TextView
-            android:id="@+id/then_now_summary"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/then_now_divider"
-            android:layout_gravity="center"
-            android:layout_marginBottom="14dp"
-            android:layout_marginStart="14dp"
-            android:layout_marginTop="8dp"
-            android:text="@string/then_now_content"
-            android:textSize="14sp"
-            android:textColor="@color/general_info_text"
-            android:layout_marginEnd="16dp" />
-
-    </RelativeLayout>
-</android.support.v7.widget.CardView>
+</LinearLayout>

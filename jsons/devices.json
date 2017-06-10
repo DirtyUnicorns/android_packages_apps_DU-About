@@ -85,12 +85,6 @@
 }},
 
 {
-"device_name":"Xiaomi Mi Mix",
-"uri":{
-"device_image":"https://download.dirtyunicorns.com/misc/.devices/DU-Xiaomi_Mi.png"
-}},
-
-{
 "device_name":"LeEco Le Max 2",
 "uri":{
 "device_image":"https://download.dirtyunicorns.com/misc/.devices/DU-LeEco_Le_Max2.png"

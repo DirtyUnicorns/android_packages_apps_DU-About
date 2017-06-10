@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <resources>
 
     <color name="colorPrimary">@*android:color/primary_device_default_dark</color>
@@ -13,12 +12,9 @@
     <!-- Nav drawer -->
     <color name="nav_drawer_background">#f4f4f4</color>
     <color name="nav_drawer_divider">#dadada</color>
-    <color name="nav_drawer_header_text">#FFFFFF</color>
-    <color name="nav_drawer_text">#212121</color>
-    <color name="nav_drawer_selected_text">@*android:color/accent_device_default_light</color>
+    <color name="nav_drawer_text">#737373</color>
     <color name="nav_drawer_selector">#10000000</color>
     <color name="nav_drawer_icon_color">@*android:color/accent_device_default_light</color>
-    <color name="nav_drawer_icon_tint_color">@*android:color/accent_device_default_light</color>
 
     <!-- Cards -->
     <color name="general_info_background">#FFFFFF</color>

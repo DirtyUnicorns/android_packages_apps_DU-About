@@ -28,4 +28,5 @@
         android:src="@drawable/twitter"
         android:layout_marginStart="20dp"
         android:layout_margin="20dp" />
+
 </LinearLayout>

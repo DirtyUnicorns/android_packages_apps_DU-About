@@ -1,0 +1,20 @@
+-keep class android.support.v7.preference.** { *; }
+-keep interface android.support.v7.preference.** { *; }
+-dontwarn android.support.v7.preference.**
+-keep class android.support.v14.preference.** { *; }
+-keep interface android.support.v14.preference.** { *; }
+-dontwarn android.support.v14.preference.**
+-keep public class android.support.v7.widget.** { *; }
+-keep public class android.support.v7.internal.widget.** { *; }
+-keep public class android.support.v7.internal.view.menu.** { *; }
+-dontwarn android.support.design.**
+-keep class android.support.design.** { *; }
+-keep interface android.support.design.** { *; }
+-keep class android.support.v7.widget.RoundRectDrawable { *; }
+-dontwarn com.squareup.okhttp.**
+-dontwarn okio.**
+-dontwarn retrofit2.**
+-keep class retrofit2.** { *; }
+-keep class sun.misc.Unsafe { *; }
+-keep class com.google.gson.stream.** { *; }
+-keep class com.dirtyunicorns.about.**

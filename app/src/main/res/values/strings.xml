@@ -1,10 +1,12 @@
 <resources>
 
     <string name="app_name" translatable="false">DU About</string>
+    <string name="navigation_drawer_open">navigation_drawer_open</string>
+    <string name="navigation_drawer_close">navigation_drawer_close</string>
+    <string name="no_connection">Can not access without a internet connection.</string>
+    <string name="no_browser_installed">No apps found to launch this. Please install a browser</string>
     <string name="hide_app_icon">Hide app</string>
     <string name="info">Info</string>
-    <string name="no_connection">Can not access without a internet connection.</string>
-    <string name="general_info_title">General information</string>
     <string name="developers_title">Developers</string>
     <string name="device_title">Devices</string>
     <string name="in_beginning_title">In the beginning…</string>

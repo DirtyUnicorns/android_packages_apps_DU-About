@@ -16,9 +16,11 @@
 
 package com.dirtyunicorns.about.fragments;
 
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v7.preference.PreferenceFragmentCompat;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -46,27 +48,43 @@ public class GeneralInfo extends PreferenceFragmentCompat {
         googleplus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent googleplus = new Intent(Intent.ACTION_VIEW, Uri.parse(getResources().getString(R.string.google_plus_link)));
-                startActivity(googleplus);
+                try {
+                    Intent googleplus = new Intent(Intent.ACTION_VIEW, Uri.parse(getResources().getString(R.string.google_plus_link)));
+                    startActivity(googleplus);
+                } catch (ActivityNotFoundException e) {
+                    SnackBar();
+                }
             }
         });
         ImageView github = (ImageView) rootView.findViewById(R.id.github);
         github.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent github = new Intent(Intent.ACTION_VIEW, Uri.parse(getResources().getString(R.string.github_link)));
-                startActivity(github);
+                try {
+                    Intent github = new Intent(Intent.ACTION_VIEW, Uri.parse(getResources().getString(R.string.github_link)));
+                    startActivity(github);
+                } catch (ActivityNotFoundException e) {
+                    SnackBar();
+                }
             }
         });
         ImageView twitter = (ImageView) rootView.findViewById(R.id.twitter);
         twitter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent twitter = new Intent(Intent.ACTION_VIEW, Uri.parse(getResources().getString(R.string.twitter_link)));
-                startActivity(twitter);
+                try {
+                    Intent twitter = new Intent(Intent.ACTION_VIEW, Uri.parse(getResources().getString(R.string.twitter_link)));
+                    startActivity(twitter);
+                } catch (ActivityNotFoundException e) {
+                    SnackBar();
+                }
             }
         });
 
         return rootView;
+    }
+
+    public void SnackBar() {
+        Snackbar.make(getActivity().findViewById(R.id.fragment), getString(R.string.no_browser_installed), Snackbar.LENGTH_LONG).show();
     }
 }

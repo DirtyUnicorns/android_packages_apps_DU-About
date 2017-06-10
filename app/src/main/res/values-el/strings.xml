@@ -1,8 +1,10 @@
 <resources>
+
     <string name="hide_app_icon">Απόκρυψη εφαρμογής</string>
+    <string name="navigation_drawer_open">navigation_drawer_open</string>
+    <string name="navigation_drawer_close">navigation_drawer_close</string>
     <string name="info">Πληροφορίες</string>
     <string name="no_connection">Απαιείται μια σταθερή πρόσβαση στο διαδίκτυο.</string>
-    <string name="general_info_title">Γενικές πληροφορίες</string>
     <string name="developers_title">Developers</string>
     <string name="device_title">Συσκευές</string>
     <string name="in_beginning_title">Στο ξεκίνημα…</string>
@@ -20,4 +22,5 @@
         Κάναμε ωραία πράγματα και αποφασίσαμε να μπούμε στα ρηχά με το Framework της. Είχαμε την OmniROM στην lollipop αλλά δεν μας γυάλιζε το μάτι.
         Όπως με την περίπτωση της AOKP αποκτήσαμε κάποια εμπειρία και είπαμε να δοκιμάσουμε την τύχη μας με την AOSP.\n\nΑπό τότε μείναμε στην AOSP και έχουμε CAF για κάποιες συσκευές.</string>
     <string name="no_contacts">Δεν βρέθηκε κάποια επαφή</string>
+
 </resources>

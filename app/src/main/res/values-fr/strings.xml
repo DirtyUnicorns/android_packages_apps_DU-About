@@ -4,8 +4,9 @@
     <!-- DU About strings -->
     <string name="developers_title">Développeurs</string>
     <string name="device_title">Appareils</string>
-    <string name="general_info_title">Informations générales</string>
     <string name="hide_app_icon">Masquer l\'application</string>
+    <string name="navigation_drawer_open">navigation_drawer_open</string>
+    <string name="navigation_drawer_close">navigation_drawer_close</string>
     <string name="in_beginning__content">"Dirty Unicorns a commencé à la fin de l\'année 2012 par Alex Cruz. À l\'époque, il n\'a jamais imaginé que ce projet rencontrerait le succès qu\'il connaît aujourd\'hui.
 
 Le projet a été créé sans aucune pression de la part des utilisateurs des compilations non-officielles d\'Alex Cruz. À l\'époque, Alex compilait des versions non-officielles d\'AOKP pour l\'EVO 3D, parfois, en incluant des modifications non fournies par les développeurs d\'AOKP. Au fil du temps, les utilisateurs se sont retrouvés partagés : certains appréciaient ce qu\'Alex faisait, tandis que d\'autres étaient contrariés de ne pas disposer d\'une version "pure" de l\'AOKP. Ces derniers ont fait pression sur Alex pour que soit il revienne à une version "pure" de l\'AOKP, soit il change le nom de ses compilations.

@@ -16,9 +16,11 @@
 
 package com.dirtyunicorns.about.activities;
 
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
@@ -50,23 +52,39 @@ public class SocialActivity extends AppCompatActivity {
 
         googleplus.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent googleplusIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri.getGooglePlus()));
-                startActivity(googleplusIntent);
+                try {
+                    Intent googleplusIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri.getGooglePlus()));
+                    startActivity(googleplusIntent);
+                } catch (ActivityNotFoundException e) {
+                    SnackBar();
+                }
             }
         });
 
         github.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent githubIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri.getGithub()));
-                startActivity(githubIntent);
+                try {
+                    Intent githubIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri.getGithub()));
+                    startActivity(githubIntent);
+                } catch (ActivityNotFoundException e) {
+                    SnackBar();
+                }
             }
         });
 
         twitter.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent twitterIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri.getTwitter()));
-                startActivity(twitterIntent);
+                try {
+                    Intent twitterIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri.getTwitter()));
+                    startActivity(twitterIntent);
+                } catch (ActivityNotFoundException e) {
+                    SnackBar();
+                }
             }
         });
+    }
+
+    public void SnackBar() {
+        Snackbar.make(this.findViewById(R.id.google_plus), getString(R.string.no_browser_installed), Snackbar.LENGTH_LONG).show();
     }
 }

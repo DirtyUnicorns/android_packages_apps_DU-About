@@ -2,7 +2,8 @@
 
 {
 "dev_name":"Alex Cruz",
-"dev_title":"Developer",
+"dev_title":"Developer / Maintainer",
+"dev_devices":"OnePlus 3",
 "uri":{
 "card_background":"https://raw.githubusercontent.com/DirtyUnicorns/android_packages_apps_DU-About/n7x/jsons/images/alex.jpg",
 "card_avatar":"https://avatars0.githubusercontent.com/u/3707102?v=3&s=460",
@@ -195,18 +196,6 @@
 "google_plus":"https://plus.google.com/u/0/+Seanhoyt",
 "twitter":"",
 "github":"https://github.com/deadman96385"
-}},
-
-{
-"dev_name":"Shreesha Murthy",
-"dev_title":"Developer / Maintainer",
-"dev_devices":"OnePlus Two, Oneplus Three",
-"uri":{
-"card_background":"https://raw.githubusercontent.com/DirtyUnicorns/android_packages_apps_DU-About/n7x/jsons/images/shreesha.jpg",
-"card_avatar":"https://avatars2.githubusercontent.com/u/10357862?v=3&s=460",
-"google_plus":"https://plus.google.com/u/0/+shreeshamurthy",
-"twitter":"",
-"github":"https://github.com/Shreeesha"
 }}
 
 ]

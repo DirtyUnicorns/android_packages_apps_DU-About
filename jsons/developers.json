@@ -84,7 +84,7 @@
 {
 "dev_name":"Josh Chasky",
 "dev_title":"Developer / Maintainer",
-"dev_devices":"Nexus 5X, Nexus 6P, Pixel C",
+"dev_devices":"Nexus 5X, Pixel C",
 "uri":{
 "card_background":"https://raw.githubusercontent.com/DirtyUnicorns/android_packages_apps_DU-About/n7x/jsons/images/josh_chasky.jpg",
 "card_avatar":"https://avatars0.githubusercontent.com/u/4991847?v=3&s=460",
@@ -142,7 +142,8 @@
 
 {
 "dev_name":"Nathan Chancellor",
-"dev_title":"Developer",
+"dev_title":"Developer / Maintainer",
+"dev_devices":"Nexus 6P",
 "uri":{
 "card_background":"https://raw.githubusercontent.com/DirtyUnicorns/android_packages_apps_DU-About/n7x/jsons/images/nathan.png",
 "card_avatar":"https://avatars3.githubusercontent.com/u/11478138?v=3&s=460",

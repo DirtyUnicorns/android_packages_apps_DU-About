@@ -14,7 +14,8 @@ Le projet a été créé sans aucune pression de la part des utilisateurs des co
 Alex a contacté quelques-uns de ses amis proches pour parler de ce qui se passait sur son fil de discussion. Puis les compilations AOKP "pures" ont été abandonnées. Avec l\'aide de ses amis proches tels que Bret Zamzow, James Taylor, Josh Chasky, Barry Smith, et quelques autres, c\'était lancé !"</string>
     <string name="in_beginning_title">Au début…</string>
     <string name="info">Info</string>
-    <string name="no_connection">Accès impossible sans une connexion Internet.</string>
+    <string name="no_connection">Accès impossible sans une connexion Internet</string>
+    <string name="no_browser_installed">Aucun navigateur Internet trouvé. Veuillez en installer un</string>
     <string name="no_contacts">Aucune information de contact trouvée</string>
     <string name="then_now_content">"Après avoir utilisé AOKP pendant quelques cycles de KitKat, nous nous sommes rendus compte que nous avions déjà appris beaucoup pour des débutants, et que nous pourrions faire encore plus. Nous voulions une ROM plus orientée vers l\'AOSP, plutôt que ce qui était un mélange de CAF et AOSP, et rempli de fonctionnalités annexes. Nous voulions une page vierge, ou du moins, une page sans trop d\'écriture dessus.
 

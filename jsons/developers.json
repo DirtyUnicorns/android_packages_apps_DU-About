@@ -84,7 +84,7 @@
 {
 "dev_name":"Josh Chasky",
 "dev_title":"Developer / Maintainer",
-"dev_devices":"Nexus 5X, Pixel C",
+"dev_devices":"Nexus 5X, Pixel C, OnePlus 5",
 "uri":{
 "card_background":"https://raw.githubusercontent.com/DirtyUnicorns/android_packages_apps_DU-About/n7x/jsons/images/josh_chasky.jpg",
 "card_avatar":"https://avatars0.githubusercontent.com/u/4991847?v=3&s=460",
@@ -96,7 +96,7 @@
 {
 "dev_name":"Josh Correll",
 "dev_title":"Developer / Maintainer",
-"dev_devices":"Motorola Moto X Pure",
+"dev_devices":"Moto X Pure",
 "uri":{
 "card_background":"https://raw.githubusercontent.com/DirtyUnicorns/android_packages_apps_DU-About/n7x/jsons/images/josh_correll.jpg",
 "card_avatar":"https://avatars2.githubusercontent.com/u/3066604?v=3&s=460",
@@ -155,7 +155,7 @@
 {
 "dev_name":"Nick Doherty",
 "dev_title":"Developer / Maintainer",
-"dev_devices":"Motorola Moto G 3, Motorola Moto X Play",
+"dev_devices":"Moto G 3, Moto X Play",
 "uri":{
 "card_background":"https://raw.githubusercontent.com/DirtyUnicorns/android_packages_apps_DU-About/n7x/jsons/images/nick.jpg",
 "card_avatar":"https://avatars3.githubusercontent.com/u/4216993?v=3&s=460",
@@ -174,17 +174,6 @@
 "google_plus":"https://plus.google.com/u/0/+NicolasDhouailly",
 "twitter":"",
 "github":"https://github.com/Nico60"
-}},
-
-{
-"dev_name":"Paul Clark",
-"dev_title":"Developer",
-"uri":{
-"card_background":"https://raw.githubusercontent.com/DirtyUnicorns/android_packages_apps_DU-About/n7x/jsons/images/paul.png",
-"card_avatar":"https://avatars1.githubusercontent.com/u/17118080?v=3&s=460",
-"google_plus":"https://plus.google.com/u/0/105488358948058293922",
-"twitter":"",
-"github":"https://github.com/Dabug123"
 }},
 
 {

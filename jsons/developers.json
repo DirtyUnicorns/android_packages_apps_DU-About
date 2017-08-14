@@ -37,7 +37,7 @@
 {
 "dev_name":"Daniel Johansson",
 "dev_title":"Developer / Maintainer",
-"dev_devices":"Nvidia Shield K1 / HTC 10",
+"dev_devices":"Nvidia Shield K1, HTC 10",
 "uri":{
 "card_background":"https://raw.githubusercontent.com/DirtyUnicorns/android_packages_apps_DU-About/n7x/jsons/images/no_photo.jpg",
 "card_avatar":"https://avatars0.githubusercontent.com/u/2577140?v=3&s=460",
@@ -61,7 +61,7 @@
 {
 "dev_name":"Edwin Rivera",
 "dev_title":"Developer / Maintainer",
-"dev_devices":"Pixel (Marlin)",
+"dev_devices":"Pixel XL (Marlin)",
 "uri":{
 "card_background":"https://raw.githubusercontent.com/DirtyUnicorns/android_packages_apps_DU-About/n7x/jsons/images/edwin.jpg",
 "card_avatar":"https://avatars3.githubusercontent.com/u/5893420?v=3&s=460",
@@ -84,7 +84,7 @@
 {
 "dev_name":"Josh Chasky",
 "dev_title":"Developer / Maintainer",
-"dev_devices":"Nexus 5X, Pixel C, OnePlus 5",
+"dev_devices":"Nexus 5X, OnePlus 5, Pixel C",
 "uri":{
 "card_background":"https://raw.githubusercontent.com/DirtyUnicorns/android_packages_apps_DU-About/n7x/jsons/images/josh_chasky.jpg",
 "card_avatar":"https://avatars0.githubusercontent.com/u/4991847?v=3&s=460",
